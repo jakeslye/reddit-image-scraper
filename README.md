@@ -14,13 +14,11 @@ Javascript reddit scraper in one function
     getRedditImages(15, "nature", (images) => {
         for(var i=0; i<images.length; i++){
             if(images[i] != "no image"){
-                console.log(i)
                 var image = document.createElement("img");
                 image.src = images[i];
                 document.body.appendChild(image);
             }
         }
-        console.log(images)
     });
 </script>
 ```
