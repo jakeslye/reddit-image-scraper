@@ -1,6 +1,10 @@
 # reddit-image-scraper
 Javascript reddit scraper in one function
 
+```Javascript
+getRedditImages(amount, subreddit, callback)
+```
+
 ## Example Usage
 ```HTML
 <script src="reddit.js"></script>
