@@ -1,4 +1,4 @@
-# reddit-image-scraper
+# Reddit Image Scraper
 Javascript reddit scraper in one function
 
 ```Javascript
